@@ -1,7 +1,7 @@
 FROM mohamnag/orientdb
 MAINTAINER Mohammad Naghavi <mohamnag@gmail.com>
 
-ADD https://services.gradle.org/distributions/gradle-2.4-all.zip /user/bin
+ADD https://services.gradle.org/distributions/gradle-2.4-all.zip /user/bin/gradle-2.4-all.zip
 
 WORKDIR /usr/bin
 RUN apt-get install -y unzip
